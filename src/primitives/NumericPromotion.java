@@ -3,7 +3,7 @@ package primitives;
 public class NumericPromotion {
     public static void main(String[] args) {
         byte b1 = 12;
-        short sh1 = b1; // byte is smaller than shoer and we can store in the largest one
+        short sh1 = b1; // byte is smaller than short and we can store in the largest one
 
         short sh2 = 3;
       //  byte b2 = sh2; compile time error; you can not store larger data type into the smaller data type
